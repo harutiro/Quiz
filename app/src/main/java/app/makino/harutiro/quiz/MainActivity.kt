@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.startButton).setOnClickListener {
 
+            startActivity(quizIntent)
+
         }
 
 
