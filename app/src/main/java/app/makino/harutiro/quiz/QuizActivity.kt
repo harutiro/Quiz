@@ -110,5 +110,7 @@ class QuizActivity : AppCompatActivity() {
         findViewById<Button>(R.id.answerButton1).isEnabled = false
         findViewById<Button>(R.id.answerButton2).isEnabled = false
         findViewById<Button>(R.id.answerButton3).isEnabled = false
+
+        
     }
 }
